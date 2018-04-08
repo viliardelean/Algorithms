@@ -4,11 +4,11 @@ public class Fibonacci {
 	public static void main(String[] args) {
 		//a fibonacci number is defined by the sum of the 2 previous fibonacci numbers
 		// 0 1 1 2 3 5 8 etc
-	System.out.println(fib(3));
+	System.out.println(fibRecursion(3));
 
 	}
 
-	public static int fib(int n){
+	public static int fibRecursion(int n){
 		if (n==0) {
 			return 0;
 		}
